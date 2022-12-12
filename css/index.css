@@ -1,25 +1,9 @@
+h1{
+    text-align: center;
+}
 body{
     background-color: black;
 }
-h1{
-    text-align: center;
-    color: white
-}
-h2{
-    color: white;
-}
-p{
-    color: white;
-}
-li.a1{
-    color: white;   
-}
-li.a2{
-    color: white;
-}
-li.a3{
-    color: white;
-}
-li.a4{
+.clr{
     color: white;
 }
