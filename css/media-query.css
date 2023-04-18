@@ -27,6 +27,12 @@
 }
 
 @media only screen and (max-width: 613px) {
+    .menu-hidden{
+        display: none;
+    }
+    .menu-visible{
+        display: block;
+    }
     .box1{
         border-bottom: none;
         box-shadow: none;
@@ -47,7 +53,7 @@
         float: right;
     }
     .mainmenu{
-        display: block;
+        /* display: block; */
     }
     .tex{
         color: aliceblue;

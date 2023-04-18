@@ -1,4 +1,4 @@
-let menuh = document.getElementById("menuh");
+let menuh = document.getElementById("icono-hamburguer");
 let menu1 = document.getElementById("menu1");
 
 menuh.addEventListener("click", function() {
