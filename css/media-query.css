@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 /* a */
+>>>>>>> 0b4a1037fee30edfe553d65902961174338b6de3
 *{
     margin: 0%;
     padding: 0%;
@@ -20,7 +23,11 @@
 }
 .tex {
     height: 30px;
+<<<<<<< HEAD
+    margin: 15px;
+=======
     margin: 10px;
+>>>>>>> 0b4a1037fee30edfe553d65902961174338b6de3
     list-style: none;
     font-family: Arial, sans-serif;
     font-weight: 600;
@@ -47,14 +54,26 @@
         font-weight:900;
         height: 50px;
     }
+<<<<<<< HEAD
+    .menu-visible{
+        display: block;
+    }
+    .menu-hidden{
+        display: none;
+    }
+=======
+>>>>>>> 0b4a1037fee30edfe553d65902961174338b6de3
     .logo-inter {
         display: flex;
         margin-top: 5px;
         float: right;
     }
+<<<<<<< HEAD
+=======
     .mainmenu{
         /* display: block; */
     }
+>>>>>>> 0b4a1037fee30edfe553d65902961174338b6de3
     .tex{
         color: aliceblue;
         height: 50px;
