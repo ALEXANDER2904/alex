@@ -11,10 +11,10 @@
     right: 0;
     width: 100%;
     justify-content: center;
-    background-color: rgba(22, 22, 23, .8);
+    backdrop-filter: blur(20px);
+    background-color: rgba(22, 22, 23, .9);
 }
 .menu{ 
-    /* background-color: aqua; */
     justify-content: center;
     font-weight:550;
     margin-top: 8px;
@@ -47,17 +47,25 @@ img{
     margin-bottom: 24%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.c{
-    margin-top: 500px;
+.contenido{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
     background-color: black;
 }
-h2{
+h2{ 
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     margin-left: 5%;
-    margin-bottom: 1%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgba(255, 255, 255, .8);
 }
 p{
+    /* background-color: rgb(55, 0, 255); */
+    font-size: 19px;
     font-weight:500;
     margin-left: 5%;
     margin-right: 5%;
