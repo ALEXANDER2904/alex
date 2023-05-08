@@ -15,9 +15,9 @@ h1{
     background-color: rgb(255, 0, 0);
     width: 30px;
     height: 6px;
-    transform: skewX(-65deg);
+    transform: skewX(-68deg);
     position: relative;
-    left: 35px;
+    left: 36px;
     top: -6px;
 }
 .pilar2{
@@ -28,9 +28,9 @@ h1{
 }
 .pilar3{
     background-color: rgb(0, 38, 255);
-    width: 16px;
+    width: 13px;
     height: 100px;
-    transform: skewY(-20deg);
+    transform: skewY(-23deg);
     position: relative;
     float: left;
     top: -3px;
