@@ -17,7 +17,8 @@ h1{
     height: 6px;
     transform: skewX(-65deg);
     position: relative;
-    left: 6px;
+    left: 35px;
+    top: -6px;
 }
 .pilar2{
     background-color: rgb(130, 253, 16);
