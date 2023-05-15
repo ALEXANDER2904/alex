@@ -33,7 +33,7 @@ strong{
 }
 /* CUADRO 1 */
 .pilar11{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -42,7 +42,7 @@ strong{
     top: -53px;
 }
 .pilar21{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 150px;
     position: relative;
@@ -50,7 +50,7 @@ strong{
     top: -47px;
 }
 .pilar31{
-    background-color: rgb(0, 38, 255);
+    background-color: #9CAEA9;
     width: 12px;
     height: 150px;
     transform: skewY(-27deg);
@@ -60,7 +60,7 @@ strong{
 }
 /* CUADRO 2 */
 .pilar12{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -69,7 +69,7 @@ strong{
     top: -43px;
 }
 .pilar22{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 140px;
     position: relative;
@@ -77,7 +77,7 @@ strong{
     top: -37px;
 }
 .pilar32{
-    background-color: rgb(0, 38, 255);
+    background-color: #9CAEA9;
     width: 12px;
     height: 140px;
     transform: skewY(-27deg);
@@ -87,7 +87,7 @@ strong{
 }
 /* CUADRO 3 */
 .pilar13{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -96,7 +96,7 @@ strong{
     top: -33px;
 }
 .pilar23{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 130px;
     position: relative;
@@ -104,7 +104,7 @@ strong{
     top: -27px;
 }
 .pilar33{
-    background-color: rgb(0, 38, 255);
+    background-color: #9CAEA9;
     width: 12px;
     height: 130px;
     transform: skewY(-27deg);
@@ -114,7 +114,7 @@ strong{
 }
 /* CUADRO 4 */
 .pilar14{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -123,14 +123,14 @@ strong{
     top: -6px;
 }
 .pilar24{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 100px;
     position: relative;
     float: left;
 }
 .pilar34{
-    background-color: rgb(0, 38, 255);
+    background-color:#9CAEA9;
     width: 12px;
     height: 100px;
     transform: skewY(-27deg);
@@ -140,7 +140,7 @@ strong{
 }
 /* CUADRO 5 */
 .pilar15{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -149,7 +149,7 @@ strong{
     top: 10px;
 }
 .pilar25{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 80px;
     position: relative;
@@ -157,7 +157,7 @@ strong{
     top: 16px;
 }
 .pilar35{
-    background-color: rgb(0, 38, 255);
+    background-color: #9CAEA9;
     width: 12px;
     height: 80px;
     transform: skewY(-27deg);
@@ -167,7 +167,7 @@ strong{
 }
 /* CUADRO 6 */
 .pilar16{
-    background-color: rgb(255, 0, 0);
+    background-color: #788585;
     width: 30px;
     height: 6px;
     transform: skewX(-63deg);
@@ -176,7 +176,7 @@ strong{
     top: 30px;
 }
 .pilar26{
-    background-color: rgb(130, 253, 16);
+    background-color: #CCDAD1;
     width: 30px;
     height: 60px;
     position: relative;
@@ -184,7 +184,7 @@ strong{
     top: 36px;
 }
 .pilar36{
-    background-color: rgb(0, 38, 255);
+    background-color: #9CAEA9;
     width: 12px;
     height: 60px;
     transform: skewY(-27deg);
