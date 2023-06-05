@@ -5,6 +5,9 @@
 html {
     scroll-behavior: smooth;
 }
+a:-webkit-any-link {
+    text-decoration: none !important;
+  }
 .base-menu{
     z-index: 1;
     display: flex;
@@ -118,8 +121,12 @@ nav li li{
 nav li:hover > ul > li {
     max-height: 500px;
     overflow: visible;
-}
-nav ul ul li {
-    display: block;
+    background-color: brown;
     width: 100%;
 }
+/* nav ul li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: brown;
+} */
