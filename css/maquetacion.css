@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    height: 80px;
+}
+.main-img-box{
+    width:100%;
+    height: 500px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.2em;
+    font-weight: 900px;
+}
+.article-box{
+    display: grid;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    gap: 50px;
+    grid-template: "empty-izq article1 article2 article3 empty-der" 550px 
+    "empty-izq article4 article5 article6 empty-der" 550px  /  
+    1fr       300px     300px    300px   1fr;
+}
+.article1{
+    grid-area: article1;
+    background-color: rgb(146, 146, 146);
+}
+.article2{
+    grid-area: article2;
+    background-color: rgb(104, 58, 58);
+}
+.article3{
+    grid-area: article3;
+    background-color: rgb(144, 106, 106);
+}
+.article4{
+    grid-area: article4;
+    background-color: rgb(144, 106, 106);
+}
+.article5{
+    grid-area: article5;
+    background-color: rgb(144, 106, 106);
+}
+.article6{
+    grid-area: article6;
+    background-color: rgb(144, 106, 106);
+}
+.img-article{
+    background-color: rgb(55, 37, 37);
+    width: 100%;
+    height: 300px;
+}
+.text-content{
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+@media only screen and (max-width: 720px) {
+    .article-box{
+        gap: 10px;
+        grid-template:"empty-izq article1 empty-der" 520px
+                      "empty-izq article2 empty-der" 520px
+                      "empty-izq article3 empty-der" 520px
+                      "empty-izq article4 empty-der" 520px
+                      "empty-izq article5 empty-der" 520px
+                      "empty-izq article6 empty-der" 540px
+                      /1fr        420px     420px    420px 1fr;
+    }    
+}
