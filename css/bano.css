@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .slider {
     grid-area: slider;
@@ -65,7 +66,7 @@
     display: flex;
     justify-content: flex-end;
 }
-.fa-solid {
+.fa-arrow-right, .fa-arrow-left {
     width: 80px;
     height: 80px;
     background-color: yellow;
@@ -162,6 +163,9 @@
     height: 100%;
     width: 200px;
 }
+.cuadros-icons i{
+    font-size: 35px;
+}
 .cuadro-color{
     background-color: rgb(255, 186, 186);
 }
@@ -247,7 +251,7 @@
 .contenedor-centrar{
     width: 100%;
     height: 550px;
-    background-color: rgb(152, 144, 152);
+    background-color: rgb(199, 17, 199);
 }
 .contenedor-f{
     display: flex;
@@ -291,4 +295,21 @@
     border-radius: 30px;
     font-size: 1.1em;
     margin: 20px;
+}
+.box-barra-signal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.barra-signal{
+    width: 100px;
+    height: 10px;
+    background-color: aquamarine;
+    margin-left: 20px;
+    position: relative;
+    top: -60px;
+}
+.text-icon{
+    text-align: end;
 }
