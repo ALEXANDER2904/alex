@@ -9,10 +9,10 @@
 <body>
     <div class="main-box">
         <div class="box-subtotal">
-            <label class="subtotal">SUBTOTAL COP<span id="subTotal">0</span></label>
+            <label class="subtotal">SUBTOTAL <span id="subTotal">Cop $</span>  <span class="valor-subtotal"  id="valorSubtotal">0</span>  </label>
         </div>
         <div class="btn-pago-productos">
-            <label>Proceder al pago (<span id="cantProductos">0 Productos</span>)</label>
+            <label>Proceder al pago (<span id="cantProductos"></span>)</label>
         </div>
         <div class="box-img-producto">
             <img class="img-producto" src="images/libro-js.jpg">
@@ -25,7 +25,8 @@
             </label>
             <label>Editorial Planeta</label>
             <label>Tapa Dura</label>
-            <label>Cop <span>0</span></label>
+            <label>Cop  <span class="signo-pesos">$</span> <span id="valorUnitarioProducto" class="valor-unitario-producto"></span></label>
+            <button class="eliminar" id="eliminar">Eliminar</button>
         </div>
         <div class="num-select">
             <div id="numRestar" class="num-restar">-</div>
