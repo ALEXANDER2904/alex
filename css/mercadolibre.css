@@ -4,49 +4,71 @@
     box-sizing: border-box;
 }
 header{
-    height: 90px;
-    display: grid;
-    grid-template: "logo input-busqueda hamburguer-menu carrito" /
-                    120px         1fr     80px          80px;
+    height: 70px;
     background-color: #fff159;
+    display: grid;
+    grid-template: "logo box-input-busqueda hamburguer-menu carrito"/
+                    70px 1fr  50px   50px
 }
 .logo{
     grid-area: logo;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb();
+}
+.img-logo{
+    width: 95%;
 }
 .box-input-busqueda {
-    grid-area: input-busqueda;
+    grid-area: box-input-busqueda;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 30%; /* Cambia el ancho según tu preferencia */
 }
-.input-busqueda{
-    width: 90%;
+
+.input-busqueda {
+    border-radius: 10px;
+    width: 100%; /* Cambia el ancho según tu preferencia */
     height: 40px;
     outline: none;
     border: none;
-    padding: 0 30px;
+    padding: 0 10px; /* Ajusta el padding según tu preferencia */
     font-size: 1.3em;
 }
-.hamburguer-menu {
+
+.hamburguer-menu{
     grid-area: hamburguer-menu;
 }
-.carrito {
+.carrito{
     grid-area: carrito;
 }
-.icon-header{
+.icon-header{   height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(48, 48, 48);
     font-size: 1.3em;
 }
-.main-content {
+.main-content{
     display: grid;
-    height: 300px;
-    grid-template: "box-producto box-info" /
-                        1fr         1fr;
 }
+
+.box-producto{
+    display: grid;
+    grid-template: "box-img box-info" /
+                        3fr     4fr;
+    height: 200px;
+}
+
+.box-img{
+    grid-area:box-img ;
+    background-color: darkcyan;
+}
+
+.box-info{
+    grid-area: box-info;
+    background-color: goldenrod;
+}
+
+
