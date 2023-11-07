@@ -1,5 +1,4 @@
 //cuando se trabaja con objetos, se construye la clase 
-let inputBusqueda = document.getElementById("inputBusqueda")
 class Automovil {
     constructor(marca, modelo, precio, year, kilometros, ubicacion, imagen) {
         this.marca = marca;
@@ -11,37 +10,52 @@ class Automovil {
         this.imagen = imagen;
     }
 }
+
 let auto1 = new Automovil("XTZ ", "125", 7000000, "2017 ·", " 10.400 km ·", " Pitalito-Huila", "images/xtz.jpg");
-let auto2 = new Automovil("XTZ", "250", 15000000, "2022 ·", " 5.400 km ·", " Pitalito-Huila", "images/mini-xtz250-2020-1.JPG");
-let auto3 = new Automovil("RX", "115", 150000, "2015 ·", " 5.400 km ·", " Pitalito-Huila", "images/rx.jpg");
-let auto4 = new Automovil("DT", "125", 1500000, "2000 ·", " 5.400 km ·", " Pitalito-Huila", "images/dt.jpg");
+let auto2 = new Automovil("XTZ", "250", 25000000, "2022 ·", " 7.700 km ·", " Pitalito-Huila", "images/mini-xtz250-2020-1.JPG");
+let auto3 = new Automovil("RX", "115", 1000000, "2015 ·", " 36.420 km ·", " Pitalito-Huila", "images/rx.jpg");
+let auto4 = new Automovil("DT", "125", 15000000, "2000 ·", " 9.300 km ·", " Pitalito-Huila", "images/dt.jpg");
+
 /* alert (auto1.marca + " " + auto1.modelo); */
 
 // for (contador = 1; contador <= 2; contador++) {
 
-        CargarVehiculo(auto1);
-        CargarVehiculo(auto2); 
-        CargarVehiculo(auto3);
-        CargarVehiculo(auto4); 
-
-
-        window.addEventListener("keydown", function(event){
-            let busqueda = document.getElementById("inputBusqueda").value;
-            if(event.key == "Enter") {
-                // mainContent.innerHTML = "";
-                let inputUser = busqueda.toLowerCase();
-                if (inputUser == "XTZ") {
-                    CargarVehiculo(auto1);
-                    CargarVehiculo(auto2);
-                }
-                else if (inputUser == "RX") {
-                    CargarVehiculo(auto3);
-                }
-                else if (inputUser == "DT") {
-                    CargarVehiculo(auto4);
-                }
-            }
-        });
+                
+let motos = [
+    CargarVehiculo(auto1),
+    CargarVehiculo(auto2),
+    CargarVehiculo(auto3),
+    CargarVehiculo(auto4)
+  ];
+  
+  let inputBusqueda = document.getElementById("inputBusqueda");
+  
+  inputBusqueda.addEventListener("input", function() {
+    let inputUser = inputBusqueda.value.toLowerCase();
+    let motosFiltradas = [];
+    
+    // Vaciar el array motos
+    motosFiltradas = [];
+  
+    if (inputUser.includes("xtz")) {
+      motosFiltradas.push(CargarVehiculo(auto1));
+      motosFiltradas.push(CargarVehiculo(auto2));
+    }
+    if (inputUser.includes("rx")) {
+      motosFiltradas.push(CargarVehiculo(auto3));
+    }
+    if (inputUser.includes("dt")) {
+      motosFiltradas.push(CargarVehiculo(auto4));
+    }
+    
+    motos = motosFiltradas;
+  
+    // Realizar cualquier acción necesaria con el nuevo array de motos
+    // Por ejemplo, puedes actualizar la vista aquí
+  });
+  
+  
+  
 
 function CargarVehiculo(auto) {
 
@@ -119,6 +133,13 @@ function CargarVehiculo(auto) {
             boxProducto.appendChild(lineaDiv);
             lineaDiv.setAttribute("class", "linea-div");
             
-            /* } */
-      
+            /* } */  
+}
+
+// FILTROS
+
+cargarFiltro();
+
+function cargarFiltro() {
+
 }
