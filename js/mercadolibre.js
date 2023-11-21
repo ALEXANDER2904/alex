@@ -69,18 +69,21 @@ function cargarVehiculo(auto) {
     let txtNodeMarca = document.createTextNode(auto.marca + " " + auto.modelo);
     marca.appendChild(txtNodeMarca);
     marca.setAttribute("class", "marca");
+    
     /* Precio */
     let precio = document.createElement("label");
     boxInfo.appendChild(precio);
     let txtNodePrecio = document.createTextNode("$" + Intl.NumberFormat("de-DE").format(auto.precio));
     precio.appendChild(txtNodePrecio);
     precio.setAttribute("class", "precio");
+
     /* año */
     let anyo = document.createElement("label");
     boxInfo.appendChild(anyo);
     let txtNodeAnyo = document.createTextNode(auto.anyo + " · ");
     anyo.appendChild(txtNodeAnyo);
     anyo.setAttribute("class", "info-anyo");
+
     /* Kilometros */
     let kilometros = document.createElement("label");
     boxInfo.appendChild(kilometros);
@@ -89,6 +92,7 @@ function cargarVehiculo(auto) {
 
     kilometros.appendChild(txtNodeKilometros);
     kilometros.setAttribute("class", "info-kilometros");
+
     /* Ciudad  */
     let ciudad = document.createElement("label");
     boxInfo.appendChild(ciudad);

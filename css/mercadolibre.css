@@ -132,7 +132,7 @@ header {
     .main-content {
         background-color: rgb(235,235,235,.9);
         display: grid;
-        grid-template: "box-filtro box-productos";
+        /* grid-template: "box-filtro box-productos"; */
     }
     .box-productos {
         grid-area: box-productos;
