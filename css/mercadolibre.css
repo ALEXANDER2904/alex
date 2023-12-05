@@ -152,12 +152,12 @@ header {
         position: relative;
         cursor: pointer;
     }
-    .box-toggle:hover {
+    /* .box-toggle:hover {
         background-color: rgb(52,131,250);
     }
     .box-toggle:hover .button-toggle {
         left: 63px;
-    }
+    } */
     .button-toggle {
         width: 54px;
         height: 54px;
